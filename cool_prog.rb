@@ -1,6 +1,6 @@
 class Bin_Tree
   class Node
-
+     attr_reader :value, :left, :right
     def initialuze (value, left = nil, right = nil)
       @value = value
       @left = left
